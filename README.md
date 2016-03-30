@@ -1,2 +1,2 @@
 # good-to-know-for-ng2
-Th
+Things good to know for Angular 2
