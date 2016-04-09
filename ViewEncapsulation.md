@@ -10,6 +10,39 @@ export enum ViewEncapsulation {
 }
 ```
 
+### How it works
+
+Unless it is changed to `None` value, Angular appends styles at the end of `head` HTML tag with randomly generated attribute selector. Following code is an example.
+
+```
+<head>
+  ...
+  <style>
+    // other component style
+  </style>
+  <style>
+    ...
+    .top-bar[_ngcontent-hyk-2] {
+      display: flex;
+      height: 80px;
+      font-weight: bold;
+      background: #394555;
+      color: #fff;
+      padding: 15px 12px;
+      display: table;
+      width: 100%;
+    }
+    .top-bar[_ngcontent-hyk-2] .menu-icon[_ngcontent-hyk-2] {
+      display: table-cell;
+      vertical-align: bottom;
+      font-size: 17px;
+      width: 33%;
+    }
+    ...  
+  </style>
+</head>
+```
+
 ### Consideration to choose 3rd party components
 
 Angular 2 comes with view encapsulation built in, which means it supports for native Shadow DOM or emulate it unless `None` is given in the meta data. It will end up to have `scoped style`. 
