@@ -49,9 +49,9 @@ Angular 2 comes with view encapsulation built in, which means it supports for na
 
 Why then should it be considered? In my opinion, it should be considered when we try to use 3rd party components in Angular 2 projects from style's point of view. 
 
-Most of companies have their own style guide like color theme, font and so on. Sometimes 3rd party libs might not fit with the guideline. In that case, we usually tried to overwrite its style.
+Most of companies have their own style guide like color theme, font and so on. Sometimes 3rd party libs might not fit with the guideline. In that case, we usually tried to override its style.
 
-In Angular 2, however it supports for scoped style with Shadow DOM so that it might be hard to overwrite its styles unless they provide external style files.
+In Angular 2, however it supports for scoped style with Shadow DOM so that it might be hard to override its styles unless they provide external style files.
 
 ### References
 
