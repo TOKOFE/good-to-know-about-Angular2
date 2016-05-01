@@ -58,7 +58,7 @@ export class ColorRadio {
 }
 
 describe('My radio component', () => {
-   it ('should emit redCliced event',
+   it ('should emit redClicked event',
       injectAsync([TestComponentBuilder], (tcb: TestComponentBuilder) => {
         return tcb
           .createAsync(ColorRadio)
