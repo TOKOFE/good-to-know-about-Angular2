@@ -3,6 +3,7 @@ Things good to know for Angular 2
 
 ## My experiments / experience
 - [View Encapsulation and Shadow DOM](https://github.com/TOKOFE/good-to-know-about-Angular2/blob/master/ViewEncapsulation.md)
+- [How to make a unit test for EventEmitter](https://github.com/TOKOFE/good-to-know-about-Angular2/blob/master/UnitTest-EventEmitter.md)
 
 ## Articles from others
 
