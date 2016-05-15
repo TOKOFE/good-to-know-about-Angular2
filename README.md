@@ -11,3 +11,5 @@ Things good to know for Angular 2
  - It is a good posting to consider when we use Angular 2 such as template syntax, DOM handling and communicate with child components
 - [Looping Over Object Properties in Angular 2’s ngFor](https://webcake.co/object-properties-in-angular-2s-ngfor/)
  - A good suggestion to iterate over `Object` properties with ngFor. 
+- [Run protractor tests with Gulp](https://github.com/TOKOFE/good-to-know-about-Angular2/blob/master/e2e-protractor-test.md)
+ - A tip to set up Selenium server including chrome driver.
