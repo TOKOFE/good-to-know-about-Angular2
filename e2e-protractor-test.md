@@ -24,3 +24,7 @@ This is tricky. The command `webdriver-manager update` downloaded and installed 
 So when I tried to run protractor with `gulp` locally it couldn't find the chrome driver. Many hours later I realized that I have to run it locally.
 
 To sum up, if you want to run protractor tests with gulp, you should run `webdriver-manager update` locally.
+
+### References
+
+[Chrome Driver issue](https://github.com/teerapap/grunt-protractor-runner/issues/45)
