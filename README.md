@@ -13,3 +13,4 @@ Things good to know for Angular 2
  - A good suggestion to iterate over `Object` properties with ngFor. 
 - [Run protractor tests with Gulp](https://github.com/TOKOFE/good-to-know-about-Angular2/blob/master/e2e-protractor-test.md)
  - A tip to set up Selenium server including chrome driver.
+- [Property Binding vs Attribute Binding](https://github.com/TOKOFE/good-to-know-about-Angular2/blob/master/property-attribute-binding.md)
