@@ -15,3 +15,4 @@ Things good to know for Angular 2
  - A tip to set up Selenium server including chrome driver.
 - [Property Binding vs Attribute Binding](https://github.com/TOKOFE/good-to-know-about-Angular2/blob/master/property-attribute-binding.md)
  - Good explanation and a reference betwwen property binding and attribute binding
+- [Unit test](https://medium.com/google-developer-experts/angular-2-unit-testing-with-jasmine-defe20421584#.485imuc0a)
